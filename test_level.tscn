@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://k0ddourjjjnl"]
 
 [ext_resource type="PackedScene" uid="uid://tfdgx4goff5d" path="res://block.tscn" id="1_gojnm"]
+[ext_resource type="PackedScene" uid="uid://oy67rn0cumj3" path="res://player.tscn" id="2_1c2mv"]
 
 [node name="Test level" type="Node2D" unique_id=1320657509]
 
@@ -15,3 +16,6 @@ scale = Vector2(1.64477, 18.049366)
 [node name="Block3" parent="." unique_id=531282949 instance=ExtResource("1_gojnm")]
 position = Vector2(1152.0001, -638)
 scale = Vector2(1.64477, 18.049366)
+
+[node name="CharacterBody2D" parent="." unique_id=1560278933 instance=ExtResource("2_1c2mv")]
+position = Vector2(-8, -72)
