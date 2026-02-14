@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://d3graqxfthia0"]
+
+[ext_resource type="Script" uid="uid://yx2gqyf1l1sq" path="res://peg.gd" id="1_1pwoe"]
+[ext_resource type="Texture2D" uid="uid://barq67eed08is" path="res://icon.svg" id="1_y34qd"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1pwoe"]
+radius = 24.0
+
+[node name="Peg" type="Area2D" unique_id=1305176497]
+script = ExtResource("1_1pwoe")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2099072531]
+shape = SubResource("CircleShape2D_1pwoe")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1534985168]
+scale = Vector2(0.1875, 0.1875)
+texture = ExtResource("1_y34qd")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

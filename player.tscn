@@ -9,13 +9,14 @@ radius = 64.0
 
 [node name="Player" type="RigidBody2D" unique_id=1124770313]
 mass = 0.2
+lock_rotation = true
 script = ExtResource("1_onrkg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1014575830]
 shape = SubResource("CircleShape2D_onrkg")
 
 [node name="Camera2D" type="Camera2D" parent="CollisionShape2D" unique_id=531905009]
-zoom = Vector2(0.2, 0.2)
+zoom = Vector2(0.5, 0.5)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1555124003]
 texture = ExtResource("1_4flbx")
