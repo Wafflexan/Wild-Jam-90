@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://bhswd56mmirf"]
 
-[ext_resource type="Shader" uid="uid://okf48axwkxq" path="res://god_rays2.gdshader" id="1_85atj"]
+[ext_resource type="Shader" uid="uid://okf48axwkxq" path="res://Scripts/god_rays2.gdshader" id="1_85atj"]
 
 [resource]
 resource_local_to_scene = true

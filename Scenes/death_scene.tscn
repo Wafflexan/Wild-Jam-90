@@ -3,11 +3,11 @@
 [ext_resource type="Texture2D" uid="uid://dup0usdc3uaxy" path="res://Sprites/Old_Grandma_1.png" id="1_mmcc8"]
 [ext_resource type="AudioStream" uid="uid://c1l3tvgvepfln" path="res://SFX/angelic ahhh.mp3" id="2_w30ie"]
 [ext_resource type="AudioStream" uid="uid://bfgxy1xugqqww" path="res://SFX/Spotlight.mp3" id="3_5wyn5"]
-[ext_resource type="Material" uid="uid://bhswd56mmirf" path="res://god_rays.tres" id="4_5wyn5"]
-[ext_resource type="Shader" uid="uid://okf48axwkxq" path="res://god_rays2.gdshader" id="5_cljc8"]
-[ext_resource type="Shader" uid="uid://ccuy6m8w5mmbu" path="res://Scenes/water.gdshader" id="6_seej8"]
-[ext_resource type="Texture2D" uid="uid://7417gf8lqv18" path="res://Water Caustics.png" id="7_nmymg"]
-[ext_resource type="Texture2D" uid="uid://drn4yubj4lc4p" path="res://Noise 3.webp" id="8_2thbg"]
+[ext_resource type="Material" uid="uid://bhswd56mmirf" path="res://Scripts/god_rays.tres" id="4_5wyn5"]
+[ext_resource type="Shader" uid="uid://okf48axwkxq" path="res://Scripts/god_rays2.gdshader" id="5_cljc8"]
+[ext_resource type="Shader" uid="uid://ccuy6m8w5mmbu" path="res://Scripts/water.gdshader" id="6_seej8"]
+[ext_resource type="Texture2D" uid="uid://7417gf8lqv18" path="res://Sprites/Water Caustics.png" id="7_nmymg"]
+[ext_resource type="Texture2D" uid="uid://drn4yubj4lc4p" path="res://Sprites/Noise 3.webp" id="8_2thbg"]
 
 [sub_resource type="Gradient" id="Gradient_mmcc8"]
 colors = PackedColorArray(0.5568628, 0.5137255, 0.44705883, 1, 1, 1, 1, 0)

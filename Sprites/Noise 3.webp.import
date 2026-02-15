@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://f4wx0dtve53g"
-path="res://.godot/imported/Noise 2.webp-4e2bf661cbc18eb02044e4c8901a43a0.ctex"
+uid="uid://drn4yubj4lc4p"
+path="res://.godot/imported/Noise 3.webp-459118cc83392d660a415166242f35a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Noise 2.webp"
-dest_files=["res://.godot/imported/Noise 2.webp-4e2bf661cbc18eb02044e4c8901a43a0.ctex"]
+source_file="res://Sprites/Noise 3.webp"
+dest_files=["res://.godot/imported/Noise 3.webp-459118cc83392d660a415166242f35a8.ctex"]
 
 [params]
 

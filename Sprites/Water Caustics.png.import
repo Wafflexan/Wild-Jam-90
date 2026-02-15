@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drn4yubj4lc4p"
-path="res://.godot/imported/Noise 3.webp-20e8e2494f64d20a1f93ac786dec1d85.ctex"
+uid="uid://7417gf8lqv18"
+path="res://.godot/imported/Water Caustics.png-d60920cc6b2762f7c011652eb07b2d77.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Noise 3.webp"
-dest_files=["res://.godot/imported/Noise 3.webp-20e8e2494f64d20a1f93ac786dec1d85.ctex"]
+source_file="res://Sprites/Water Caustics.png"
+dest_files=["res://.godot/imported/Water Caustics.png-d60920cc6b2762f7c011652eb07b2d77.ctex"]
 
 [params]
 
