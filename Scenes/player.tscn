@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ek06d65x3iuq" path="res://Scripts/player.gd" id="1_onrkg"]
 [ext_resource type="Texture2D" uid="uid://8a0375mginqw" path="res://Sprites/Ball.png" id="2_6t5aa"]
-[ext_resource type="Shader" uid="uid://xemu4pow20cf" path="res://SFX/GhostlyShine.gdshader" id="2_vgqql"]
+[ext_resource type="Shader" path="res://SFX/GhostlyShine.gdshader" id="2_vgqql"]
 [ext_resource type="PackedScene" uid="uid://drewtx5c6ksub" path="res://Scenes/vector_creator.tscn" id="3_i3pqv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_onrkg"]
@@ -21,12 +21,12 @@ shader = ExtResource("2_vgqql")
 shader_parameter/pixelation = Vector2(256, 256)
 shader_parameter/gradient_steps = 256.0
 shader_parameter/gradient = SubResource("GradientTexture2D_fkybt")
-shader_parameter/spread = 0.21700000960898
+shader_parameter/spread = 0.24700001103398
 shader_parameter/size = 0.5510000736725
 shader_parameter/speed = 1.0
-shader_parameter/ray1_density = 8.5
-shader_parameter/ray2_density = 8.5
-shader_parameter/ray2_intensity = 0.5
+shader_parameter/ray1_density = 1.2910000613225
+shader_parameter/ray2_density = 1.0550000501125
+shader_parameter/ray2_intensity = -0.42299992509249984
 shader_parameter/core_intensity = 2.0
 shader_parameter/hdr = false
 shader_parameter/seed = 1.0
