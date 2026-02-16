@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://b25a2beyym67k"]
+
+[ext_resource type="PackedScene" uid="uid://cw4eow4wd6ue1" path="res://Scenes/death_scene.tscn" id="1_jjgbg"]
+
+[node name="Main" type="Node2D" unique_id=1293044628]
+
+[node name="CanvasModulate" parent="." unique_id=1744778528 instance=ExtResource("1_jjgbg")]

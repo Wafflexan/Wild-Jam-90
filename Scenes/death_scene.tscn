@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cw4eow4wd6ue1"]
 
+[ext_resource type="Script" uid="uid://cgqg0icefi4ec" path="res://Scripts/death_scene.gd" id="1_71oq5"]
 [ext_resource type="Texture2D" uid="uid://dup0usdc3uaxy" path="res://Sprites/Old_Grandma_1.png" id="1_mmcc8"]
 [ext_resource type="AudioStream" uid="uid://c1l3tvgvepfln" path="res://SFX/angelic ahhh.mp3" id="2_w30ie"]
 [ext_resource type="AudioStream" uid="uid://bfgxy1xugqqww" path="res://SFX/Spotlight.mp3" id="3_5wyn5"]
@@ -309,6 +310,7 @@ _data = {
 }
 
 [node name="CanvasModulate" type="CanvasModulate" unique_id=1744778528]
+script = ExtResource("1_71oq5")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1611492074]
 offset_left = -100.0
@@ -347,7 +349,6 @@ stream = ExtResource("3_5wyn5")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1588420484]
 libraries/ = SubResource("AnimationLibrary_5wyn5")
-autoplay = &"light beam"
 
 [node name="ColorRect2" type="ColorRect" parent="." unique_id=1591941400]
 z_index = 1
@@ -393,3 +394,26 @@ height = 190.0
 root_node = NodePath("../PointLight2D")
 libraries/ = SubResource("AnimationLibrary_1xmka")
 autoplay = &"light_flicker"
+
+[node name="Control" type="Control" parent="." unique_id=344457670]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="Control" unique_id=1212470292]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 10.650001
+anchor_bottom = 1.475
+offset_left = 23.0
+offset_top = 300.0
+offset_right = 284.0
+offset_bottom = 367.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "PLAY"
+
+[connection signal="pressed" from="Control/Button" to="." method="_on_button_pressed"]
